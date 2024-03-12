@@ -1,5 +1,6 @@
 import 'package:app_ban_giay/features/authentication/screens/login/login.dart';
 import 'package:app_ban_giay/features/authentication/screens/onboarding/onboarding.dart';
+import 'package:app_ban_giay/features/authentication/screens/signup/verify_email.dart';
 import 'package:app_ban_giay/utils/theme/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

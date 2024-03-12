@@ -32,9 +32,15 @@ class TTexts{
   static const String privacyPolicy = "Chính sách bảo mật";
   static const String termsOfUse = "với Điều khoản sử dụng";
   static const String verificationCode = "Mã xác thực";
-  static const String resendEmail = "Gửi lại mail";
+  static const String resendEmail = "Gửi lại email";
   static const String resendEmailIn = "Gửi lại mail vào";
   static const String signupTitle = "Tạo tài khoản của bạn";
+  static const String confirmEmail = "Xác minh email của bạn!";
+  static const String titleConfirmEmail = "Việc xác minh email tiếp cận nhiều tính năng trên SG Shoes hơn. Hãy nhấn vào nút bên dưới để xác minh email của bạn.";
+  static const String continueConfirmEmail = "Xác minh email";
+  static const String successEmail = "Email của bạn đã được xác minh";
+  static const String successEmailTitle = "Chào mừng bạn đến với SG Shoes";
+  static const String continueSuccess = "Tiếp tục";
 
 
   static const String loginTitle = "SG Shoes";
