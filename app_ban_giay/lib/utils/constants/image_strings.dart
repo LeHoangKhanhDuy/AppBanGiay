@@ -16,4 +16,7 @@ class TImages{
   //Animation img
   static const String verifyEmail = "assets/images/on_boarding_images/verifyemail.gif";
   static const String verifyEmailSucess = "assets/images/on_boarding_images/verifysuccess.gif";
+
+  //Reset pass
+  static const String resetPassword = "assets/images/on_boarding_images/resetpassword.gif";
 }

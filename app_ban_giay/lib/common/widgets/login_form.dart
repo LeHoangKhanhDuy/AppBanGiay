@@ -1,3 +1,4 @@
+import 'package:app_ban_giay/features/authentication/screens/password/forget_pass.dart';
 import 'package:app_ban_giay/features/authentication/screens/signup/signup.dart';
 import 'package:app_ban_giay/utils/constants/sizes.dart';
 import 'package:app_ban_giay/utils/constants/text_strings.dart';
@@ -21,7 +22,7 @@ class LoginForm extends StatelessWidget {
             //Email
             TextFormField(
               decoration: const InputDecoration(
-                prefixIcon: Icon(Iconsax.direct_right),
+                prefixIcon: Icon(Iconsax.direct),
                 labelText: TTexts.email,
               ),
             ),
@@ -50,7 +51,7 @@ class LoginForm extends StatelessWidget {
                 ),
         
                 //Quen MK
-                TextButton(onPressed: (){}, child: const Text(TTexts.forgetPassword)),
+                TextButton(onPressed: () => Get.to(() => const ForgetPassword()), child: const Text(TTexts.forgetPassword)),
               ],
             ),
             const SizedBox(height: TSizes.spaceBtwSections,),

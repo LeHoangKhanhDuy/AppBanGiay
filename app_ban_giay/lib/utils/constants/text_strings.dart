@@ -35,12 +35,24 @@ class TTexts{
   static const String resendEmail = "Gửi lại email";
   static const String resendEmailIn = "Gửi lại mail vào";
   static const String signupTitle = "Tạo tài khoản của bạn";
+
+  //Verify email
   static const String confirmEmail = "Xác minh email của bạn!";
   static const String titleConfirmEmail = "Việc xác minh email tiếp cận nhiều tính năng trên SG Shoes hơn. Hãy nhấn vào nút bên dưới để xác minh email của bạn.";
   static const String continueConfirmEmail = "Xác minh email";
   static const String successEmail = "Email của bạn đã được xác minh";
   static const String successEmailTitle = "Chào mừng bạn đến với SG Shoes";
   static const String continueSuccess = "Tiếp tục";
+
+  //Forget password
+  static const String forgetPassTitle = "Quên mật khẩu";
+  static const String forgetPassSubTitle = "Nhập email của bạn để lấy lại mật khẩu";
+  static const String submit = "Gửi";
+
+  //Reset password
+  static const String changePassTitle = "Kiểm tra Email của bạn";
+  static const String changePassSubTitle = "Vui lòng kiểm tra email của bạn để hoàn thành việc đổi mật khẩu của bạn";
+  static const String done = "Xong";
 
 
   static const String loginTitle = "SG Shoes";
