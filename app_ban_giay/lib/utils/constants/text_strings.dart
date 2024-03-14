@@ -10,7 +10,7 @@ class TTexts{
 
   //Home
   static const String homeAppbarTitle = "Chúc bạn ngày mới tốt lành";
-  static const String homeAppbarSubTitle = "SG Shoes";
+  static const String homeAppbarSubTitle = "Lê Hoàng Khánh Duy";
 
   //Authentication Form Text
   static const String fullName = "Họ và tên";
