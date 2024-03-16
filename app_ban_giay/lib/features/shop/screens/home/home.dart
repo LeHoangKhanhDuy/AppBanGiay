@@ -4,8 +4,11 @@ import 'package:app_ban_giay/features/shop/screens/home/widget/home_category.dar
 import 'package:app_ban_giay/features/shop/screens/home/widget/primary_header_container.dart';
 import 'package:app_ban_giay/features/shop/screens/home/widget/search_container.dart';
 import 'package:app_ban_giay/features/shop/screens/home/widget/section_heading.dart';
+import 'package:app_ban_giay/features/shop/screens/home/widget/slide.dart';
+import 'package:app_ban_giay/utils/constants/image_strings.dart';
 import 'package:app_ban_giay/utils/constants/sizes.dart';
 import 'package:flutter/material.dart';
+
 
 
 
@@ -14,12 +17,12 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return  Scaffold(
       body: SingleChildScrollView(
         child: Column(
           children: [
             //HeaderContainer
-            PrimaryHeaderContainer(
+            const PrimaryHeaderContainer(
               child: Column(
                 children: [
 
@@ -49,6 +52,12 @@ class HomeScreen extends StatelessWidget {
                   ),
                 ],
               ),
+            ),
+
+            //Body
+            Padding(
+              padding: const EdgeInsets.all(TSizes.defaultSpace),
+              child: TSlider(banners: [TImages.banner1, TImages.banner2, TImages.banner3, TImages.banner4]),
             ),            
           ],
         ),
@@ -56,6 +65,9 @@ class HomeScreen extends StatelessWidget {
     );
   }
 }
+
+
+
 
 
 

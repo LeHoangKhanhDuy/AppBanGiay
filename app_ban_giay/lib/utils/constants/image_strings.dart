@@ -30,4 +30,11 @@ class TImages{
   static const String reebokIcon = "assets/logos/reebok.png";
   static const String skechersIcon = "assets/logos/skechers.png";
 
+  //Banner
+  static const String banner1 = "assets/banner/banner1.jpg";
+  static const String banner2 = "assets/banner/banner2.jpg";
+  static const String banner3 = "assets/banner/banner3.jpg";
+  static const String banner4 = "assets/banner/banner4.jpg";
+  
+
 }
