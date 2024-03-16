@@ -19,4 +19,15 @@ class TImages{
 
   //Reset pass
   static const String resetPassword = "assets/images/on_boarding_images/resetpassword.gif";
+
+  //Cate img
+  static const String adidasIcon = "assets/logos/adidaslogo.png";
+  static const String converseIcon = "assets/logos/Converse.png";
+  static const String ikeaIcon = "assets/logos/IKEA.png";
+  static const String pumaIcon = "assets/logos/puma.png";
+  static const String nikeIcon = "assets/logos/logonike.png";
+  static const String newbalanceIcon = "assets/logos/newbalance.png";
+  static const String reebokIcon = "assets/logos/reebok.png";
+  static const String skechersIcon = "assets/logos/skechers.png";
+
 }
