@@ -49,6 +49,7 @@ flutter:
     - assets/icons/
     - assets/banner/
     - assets/images/on_boarding_images/
+    - assets/images/product/
 
 
   # fonts:

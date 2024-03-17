@@ -1,4 +1,6 @@
 
+import 'package:app_ban_giay/features/shop/screens/home/product/gridlayout_product.dart';
+import 'package:app_ban_giay/features/shop/screens/home/product/product_card_vertical.dart';
 import 'package:app_ban_giay/features/shop/screens/home/widget/home_appbar.dart';
 import 'package:app_ban_giay/features/shop/screens/home/widget/home_category.dart';
 import 'package:app_ban_giay/features/shop/screens/home/widget/primary_header_container.dart';
@@ -17,12 +19,12 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  Scaffold(
+    return   Scaffold(
       body: SingleChildScrollView(
         child: Column(
           children: [
             //HeaderContainer
-            const PrimaryHeaderContainer(
+            PrimaryHeaderContainer(
               child: Column(
                 children: [
 
@@ -56,8 +58,17 @@ class HomeScreen extends StatelessWidget {
 
             //Body
             Padding(
-              padding: const EdgeInsets.all(TSizes.defaultSpace),
-              child: TSlider(banners: [TImages.banner1, TImages.banner2, TImages.banner3, TImages.banner4]),
+              padding: EdgeInsets.all(TSizes.defaultSpace),         
+              child: Column(
+                children: [
+                  //Slide image
+                  const TSlider(banners: [TImages.banner1, TImages.banner2, TImages.banner3, TImages.banner4]),
+                  const SizedBox(height: TSizes.spaceBtwSections,),
+
+                  //SanPham
+                  GridLayoutProduct(itemCount: 4, itemBuilder: (_, index) => const ProductCardVertical()),           
+                ],
+              ),
             ),            
           ],
         ),
