@@ -1,3 +1,4 @@
+import 'package:app_ban_giay/features/authentication/screens/login/login.dart';
 import 'package:app_ban_giay/utils/constants/image_strings.dart';
 import 'package:app_ban_giay/utils/constants/sizes.dart';
 import 'package:app_ban_giay/utils/constants/text_strings.dart';
@@ -17,7 +18,7 @@ class ResetPassword extends StatelessWidget {
         actions: [IconButton(onPressed: () => Get.back(), icon: const Icon(CupertinoIcons.clear))],
       ),
       body: SingleChildScrollView(
-        padding: EdgeInsets.all(TSizes.defaultSpace),
+        padding: const EdgeInsets.all(TSizes.defaultSpace),
         child: Padding(
           padding: const EdgeInsets.all(TSizes.defaultSpace),
           child: Column(
@@ -33,7 +34,7 @@ class ResetPassword extends StatelessWidget {
               const SizedBox(height: TSizes.spaceBtwSections),
 
               //Btn
-              SizedBox(width: double.infinity, child: ElevatedButton(onPressed: (){}, child: const Text(TTexts.done))),
+              SizedBox(width: double.infinity, child: ElevatedButton(onPressed: () => Get.to(() => const LoginScreen()), child: const Text(TTexts.done))),
               const SizedBox(height: TSizes.spaceBtwItems),
               SizedBox(width: double.infinity, child: TextButton(onPressed: (){}, child: const Text(TTexts.resendEmail))),
               const SizedBox(height: TSizes.spaceBtwSections),

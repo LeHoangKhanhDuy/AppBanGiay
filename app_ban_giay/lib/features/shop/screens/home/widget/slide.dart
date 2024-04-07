@@ -21,7 +21,7 @@ class TSlider extends StatelessWidget {
       children: [
         CarouselSlider(
           options: CarouselOptions(viewportFraction: 1, onPageChanged: (index, _) => controllers.updatePageIndicator(index)),
-          items: banners.map((url) => SlideImage(imageUrl: url)).toList(),
+          items: banners.map((url) => SlideImage(imageUrl: url, backgroundColor: null,)).toList(),
         ),
         const SizedBox(height: TSizes.spaceBtwItems),
     

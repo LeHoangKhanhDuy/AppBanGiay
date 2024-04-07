@@ -1,5 +1,5 @@
 
-import 'package:app_ban_giay/features/authentication/screens/login/login.dart';
+import 'package:app_ban_giay/features/authentication/screens/welcome/welcome.dart';
 import 'package:app_ban_giay/utils/constants/sizes.dart';
 import 'package:app_ban_giay/utils/device/device_utility.dart';
 import 'package:flutter/material.dart';
@@ -15,7 +15,7 @@ class OnBoardingSkip extends StatelessWidget {
     return Positioned(
       top: TDevicesUtils.getAppBarHeight(),
       right: TSizes.defaultSpace,
-      child: TextButton(onPressed: () => Get.to(() => const LoginScreen()) , child: const Text('Bỏ qua')),
+      child: TextButton(onPressed: () => Get.to(() => const WelcomeScreen()) , child: const Text('Bỏ qua')),
     );
   }
 }

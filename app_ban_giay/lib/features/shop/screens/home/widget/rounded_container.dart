@@ -7,14 +7,13 @@ class RoundedContainer extends StatelessWidget {
     super.key, 
     this.width, 
     this.height, 
-    this.radius = TSizes.cardRadiusLg, 
     this.child, 
-    this.showBorder = false, 
-    this.backgroundColor = TColors.white, 
-    this.borderColor = TColors.borderPrimary, 
     this.padding, 
     this.margin,
-    
+    this.showBorder = false, 
+    this.radius = TSizes.cardRadiusLg, 
+    this.backgroundColor = TColors.white, 
+    this.borderColor = TColors.borderPrimary, 
   });
 
   final double? width;

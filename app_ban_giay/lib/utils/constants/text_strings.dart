@@ -9,8 +9,9 @@ class TTexts{
   static const String onBoardingSubTitle3 = "Đa dạng hình thức vận chuyển";
 
   //Home
-  static const String homeAppbarTitle = "Chúc bạn ngày mới tốt lành";
+  static const String homeAppbarTitle = "Xin chào";
   static const String homeAppbarSubTitle = "Lê Hoàng Khánh Duy";
+  static const String storeAppbarTitle = "Cửa hàng";
 
   //Authentication Form Text
   static const String fullName = "Họ và tên";
@@ -33,6 +34,7 @@ class TTexts{
   static const String termsOfUse = "với Điều khoản sử dụng";
   static const String verificationCode = "Mã xác thực";
   static const String resendEmail = "Gửi lại email";
+  static const String resendOTP = "Gửi lại OTP";
   static const String resendEmailIn = "Gửi lại mail vào";
   static const String signupTitle = "Tạo tài khoản của bạn";
 
@@ -43,6 +45,9 @@ class TTexts{
   static const String successEmail = "Email của bạn đã được xác minh";
   static const String successEmailTitle = "Chào mừng bạn đến với SG Shoes";
   static const String continueSuccess = "Tiếp tục";
+  static const String otpPhone = "Xác minh số điện thoại của bạn!";
+  static const String successOTP = "Xác minh thành công";
+  static const String successOTPTitle = "Chào mừng bạn đến với SG Shoes";
 
   //Forget password
   static const String forgetPassTitle = "Quên mật khẩu";

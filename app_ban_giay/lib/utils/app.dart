@@ -1,8 +1,9 @@
-import 'package:app_ban_giay/features/authentication/screens/login/login.dart';
-import 'package:app_ban_giay/features/authentication/screens/onboarding/onboarding.dart';
+
+import 'package:app_ban_giay/splash_screen.dart';
 import 'package:app_ban_giay/utils/theme/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+
 
 class App extends StatelessWidget {
   const App({super.key});
@@ -10,11 +11,12 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
+      
       debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.system,
       theme: TAppTheme.lightTheme,
       darkTheme: TAppTheme.darkTheme,
-      home: const OnBoardingScreen(),
+      home: const SplashScreen(),
     );
   }
 }

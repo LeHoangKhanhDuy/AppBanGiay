@@ -1,5 +1,5 @@
 
-import 'package:app_ban_giay/common/widgets/signup_form.dart';
+import 'package:app_ban_giay/common/widgets/login_signup/signup_form.dart';
 import 'package:app_ban_giay/utils/constants/sizes.dart';
 import 'package:app_ban_giay/utils/constants/text_strings.dart';
 import 'package:app_ban_giay/utils/helpers/helper_functions.dart';
@@ -16,7 +16,7 @@ class SignUpScreen extends StatelessWidget {
       appBar: AppBar(),
       body: SingleChildScrollView(
         child: Padding(
-          padding: EdgeInsets.all(TSizes.defaultSpace),
+          padding: const EdgeInsets.all(TSizes.defaultSpace),
           child: Column(
             children: [
               //Title

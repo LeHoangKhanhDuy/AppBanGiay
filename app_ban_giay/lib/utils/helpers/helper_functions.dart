@@ -5,25 +5,25 @@ import 'package:intl/intl.dart';
 
 class THelperFunctions{
   static Color? getColor(String value){
-    if(value == 'Green'){
+    if(value == 'Xanh lá'){
       return Colors.green;
-    } else if (value == 'Green'){
+    } else if (value == 'Xanh lá'){
       return Colors.green;
-    } else if (value == 'Red'){
+    } else if (value == 'Đỏ'){
       return Colors.red;
-    } else if (value == 'Blue'){
+    } else if (value == 'Xanh dương'){
       return Colors.blue;
-    } else if (value == 'Pink'){
+    } else if (value == 'Hồng'){
       return Colors.pink;
-    } else if (value == 'Grey'){
+    } else if (value == 'Xám'){
       return Colors.grey;
-    } else if (value == 'Purple'){
+    } else if (value == 'Tím'){
       return Colors.purple;
-    } else if (value == 'Black'){
+    } else if (value == 'Đen'){
       return Colors.black;
-    } else if (value == 'White'){
+    } else if (value == 'Trắng'){
       return Colors.white;
-    } else if (value == 'Brown'){
+    } else if (value == 'Nâu'){
       return Colors.brown;
     } else if (value == 'Teal'){
       return Colors.teal;

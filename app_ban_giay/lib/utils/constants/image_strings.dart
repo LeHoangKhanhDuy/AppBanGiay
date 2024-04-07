@@ -39,5 +39,24 @@ class TImages{
 
   //Image product
   static const String productImage1 = "assets/images/product/productImage1.png";
+  static const String adidas1 = "assets/images/product/AdidasOriginalsZXFluxSportswear.png";
+  static const String adidas2 = "assets/images/product/AdidasUltraBoost3.0.png";
+  static const String nike1 = "assets/images/product/AirJordanNikeAirForce.png";
+  static const String nike2 = "assets/images/product/NikeTanjunWomen.png";
 
+
+
+  //Profile
+  static const String user = "assets/logos/user.png";
+
+  //Payment
+  static const String momoLogo = "assets/images/payment/momo.png";
+  static const String applePay = "assets/images/payment/applePay.png";
+  static const String paypal = "assets/images/payment/paypal.png";
+  static const String visa = "assets/images/payment/visa.png";
+  static const String vnPay = "assets/images/payment/vnpay.png";
+
+  //Noti
+  static const String paymentSuccess = "assets/images/on_boarding_images/thanhtoanthanhcong.gif";
+  static const String paymentFail = "assets/images/notification/paymentfail.png";
 }

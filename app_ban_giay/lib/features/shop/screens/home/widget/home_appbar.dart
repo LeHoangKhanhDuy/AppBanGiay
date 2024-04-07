@@ -1,5 +1,5 @@
-import 'package:app_ban_giay/common/widgets/appbar.dart';
-import 'package:app_ban_giay/common/widgets/cart_menu_icon.dart';
+import 'package:app_ban_giay/common/widgets/appbar/appbar.dart';
+import 'package:app_ban_giay/common/widgets/icons/cart_menu_icon.dart';
 import 'package:app_ban_giay/utils/constants/colors.dart';
 import 'package:app_ban_giay/utils/constants/text_strings.dart';
 import 'package:flutter/material.dart';
