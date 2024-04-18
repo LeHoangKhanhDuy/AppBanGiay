@@ -1,6 +1,3 @@
-import 'package:app_ban_giay/utils/constants/sizes.dart';
-import 'package:app_ban_giay/utils/constants/text_strings.dart';
-
 import 'package:flutter/material.dart';
 
 import '../../../utils/constants/image_strings.dart';
@@ -13,17 +10,14 @@ class LoginHeader extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // final dark = THelperFunctions.isDarkMode(context);
-    return Column(
+    return const Column(
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
-        const Image(
-          height: 150,
+        Image(
+          height: 250,
           // image: AssetImage(dark ? TImages.lightAppLogo : TImages.darkAppLogo),
-          image: AssetImage(TImages.darkAppLogo),
+          image: AssetImage(TImages.logoBlack),
         ),
-        Text(TTexts.loginTitle, style: Theme.of(context).textTheme.headlineMedium,),
-        const SizedBox(height: TSizes.sm,),
-        Text(TTexts.loginSubTitle, style: Theme.of(context).textTheme.bodyMedium,),
       ],
     );
   }

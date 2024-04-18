@@ -1,7 +1,7 @@
 import 'package:app_ban_giay/common/widgets/chip/choice_chip.dart';
 import 'package:app_ban_giay/features/shop/screens/home/widget/section_heading.dart';
 import 'package:app_ban_giay/utils/constants/sizes.dart';
-import 'package:app_ban_giay/utils/helpers/helper_functions.dart';
+// import 'package:app_ban_giay/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 
 class ProductAttributes extends StatelessWidget {
@@ -9,11 +9,10 @@ class ProductAttributes extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final dark = THelperFunctions.isDarkMode(context);
+    // final dark = THelperFunctions.isDarkMode(context);
 
     return Column(
       children: [
-
         //Mô tả sản phẩm
         // RoundedContainer(
         //   padding: const EdgeInsets.all(TSizes.md),
@@ -24,7 +23,7 @@ class ProductAttributes extends StatelessWidget {
         //       Row(
         //         children: [
         //           SectionHeading(title: 'Thông tin', showActionButton: false),
-                  
+
         //         ],
         //       ),
         //       //variation desciption
@@ -47,11 +46,14 @@ class ProductAttributes extends StatelessWidget {
             Wrap(
               spacing: 8,
               children: [
-                TChoiceChip(text: 'Đen', selected: true, onSelected: (value){}),
-                TChoiceChip(text: 'Trắng', selected: false, onSelected: (value){}),
-                TChoiceChip(text: 'Đỏ', selected: false, onSelected: (value){}),
+                TChoiceChip(
+                    text: 'Đen', selected: true, onSelected: (value) {}),
+                TChoiceChip(
+                    text: 'Trắng', selected: false, onSelected: (value) {}),
+                TChoiceChip(
+                    text: 'Đỏ', selected: false, onSelected: (value) {}),
               ],
-            ),           
+            ),
           ],
         ),
         Column(
@@ -62,11 +64,15 @@ class ProductAttributes extends StatelessWidget {
             Wrap(
               spacing: 8,
               children: [
-                TChoiceChip(text: '36', selected: true, onSelected: (value){}),
-                TChoiceChip(text: '37', selected: false, onSelected: (value){}),
-                TChoiceChip(text: '38', selected: false, onSelected: (value){}),
-                TChoiceChip(text: '39', selected: false, onSelected: (value){}),
-                TChoiceChip(text: '40', selected: false, onSelected: (value){}),
+                TChoiceChip(text: '36', selected: true, onSelected: (value) {}),
+                TChoiceChip(
+                    text: '37', selected: false, onSelected: (value) {}),
+                TChoiceChip(
+                    text: '38', selected: false, onSelected: (value) {}),
+                TChoiceChip(
+                    text: '39', selected: false, onSelected: (value) {}),
+                TChoiceChip(
+                    text: '40', selected: false, onSelected: (value) {}),
               ],
             ),
           ],

@@ -1,4 +1,3 @@
-
 import 'package:app_ban_giay/features/authentication/screens/login/login.dart';
 import 'package:app_ban_giay/features/authentication/screens/signup/signup.dart';
 import 'package:app_ban_giay/utils/constants/colors.dart';
@@ -17,7 +16,7 @@ class WelcomeScreen extends StatelessWidget {
         decoration: const BoxDecoration(
           image: DecorationImage(
             image: AssetImage("assets/banner/giphy.gif"),
-            fit: BoxFit.cover,         
+            fit: BoxFit.cover,
           ),
         ),
         child: Column(
@@ -28,21 +27,29 @@ class WelcomeScreen extends StatelessWidget {
             //   child: Image.asset('assets/logos/logolight.png'),
             // ),
             const SizedBox(height: TSizes.spaceBtwSections),
-            Image.asset('assets/logos/logolight.png', width: 300, height: 300,),
+            Image.asset(
+              'assets/splash/logowhite.png',
+              width: 300,
+              height: 300,
+            ),
             // const SizedBox(height: 100.0),
             const Text(
-              'SG Shoes xin chào',
+              'Walk. Move. Live.',
               style: TextStyle(
-                fontSize: 40,
-                color: Colors.white,
-                fontWeight: FontWeight.bold
-              ),
+                  fontSize: 40,
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 150.0),
 
             //Lôgin
             GestureDetector(
-              onTap: (){Navigator.push(context, MaterialPageRoute(builder: (context) => const LoginScreen()));},
+              onTap: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => const LoginScreen()));
+              },
               child: Container(
                 height: 55,
                 width: 370,
@@ -52,21 +59,24 @@ class WelcomeScreen extends StatelessWidget {
                   border: Border.all(color: TColors.white),
                 ),
                 child: const Center(
-                  child: Text('Đăng nhập',
-                    style: TextStyle(
-                      fontSize: 20,
-                      fontWeight: FontWeight.bold,
-                      color: TColors.black,
-                    )
-                  )
-                ),
+                    child: Text('Đăng nhập',
+                        style: TextStyle(
+                          fontSize: 20,
+                          fontWeight: FontWeight.bold,
+                          color: TColors.black,
+                        ))),
               ),
             ),
             const SizedBox(height: TSizes.spaceBtwItems),
 
             //Register
             GestureDetector(
-              onTap: (){Navigator.push(context, MaterialPageRoute(builder: (context) => const SignUpScreen()));},
+              onTap: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => const SignUpScreen()));
+              },
               child: Container(
                 height: 55,
                 width: 370,
@@ -76,25 +86,25 @@ class WelcomeScreen extends StatelessWidget {
                   border: Border.all(color: TColors.white),
                 ),
                 child: const Center(
-                  child: Text('Đăng ký',
-                    style: TextStyle(
-                      fontSize: 20,
-                      fontWeight: FontWeight.bold,
-                      color: TColors.white,
-                    )
-                  )
-                ),
+                    child: Text('Đăng ký',
+                        style: TextStyle(
+                          fontSize: 20,
+                          fontWeight: FontWeight.bold,
+                          color: TColors.white,
+                        ))),
               ),
             ),
 
             const Spacer(),
 
-            const Text('Liên hệ với chúng tôi',style: TextStyle(
-              fontSize: 17,
-              fontWeight: FontWeight.bold,
-              color: Colors.white,
-              
-            ),),
+            const Text(
+              'Liên hệ với chúng tôi',
+              style: TextStyle(
+                fontSize: 17,
+                fontWeight: FontWeight.bold,
+                color: Colors.white,
+              ),
+            ),
             const SizedBox(height: TSizes.spaceBtwItems),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -113,7 +123,6 @@ class WelcomeScreen extends StatelessWidget {
               ],
             ),
             const SizedBox(height: 100),
-            
           ],
         ),
       ),
